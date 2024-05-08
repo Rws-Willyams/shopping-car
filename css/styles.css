@@ -5,22 +5,22 @@ html,body{
     height:100%;
 }
 
-.car{
+.cart{
     width:100%;
     margin:50px auto;
     padding:0 2%;
 }
 
-.car h2 {
+.cart h2 {
     text-align: center;
 }
 
-.car-items {
+.cart-items {
     list-style-type: none;
     padding: 0;
 }
 
-.car-items li {
+.cart-items li {
     text-align:center;
     margin-top:20px;   
 }

@@ -7,15 +7,20 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="car">
-        <h2>Seu Carrinho</h2>
-        <ul class="car-items">
-            <li>Produto 1 <button onclick="removeItem(this)">Remover</button></li>
-            <li>Produto 2 <button onclick="removeItem(this)">Remover</button></li>
-            <li>Produto 3 <button onclick="removeItem(this)">Remover</button></li>
-        </ul>
-        <h3>Total: R$ <span id="total">100,00</span></h3>
-    </div><!--car-->
+<div class="cart">
+    <h2>Seu Carrinho</h2>
+    <ul class="cart-items">
+        <li>Produto 1 <button onclick="removeItem(this)">Remover</button></li>
+        <li>Produto 2 <button onclick="removeItem(this)">Remover</button></li>
+        <li>Produto 3 <button onclick="removeItem(this)">Remover</button></li>
+    </ul>
+    <h3>Total: R$ <span id="total">100,00</span></h3>
+
+    <input type="text" id="productInput" placeholder="Nome do Produto">
+    <input type="number" id="priceInput" placeholder="Preço do Produto">
+    <button onclick="addItem()">Adicionar Produto</button>
+</div>
+
 <script src="js/script.js"></script>
 </body>
 </html>
